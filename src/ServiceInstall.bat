@@ -1,0 +1,1 @@
+nssm.exe install "Your Service Name" "C:\path_to_python\python.exe" "C:\path_to_script\print.py"
