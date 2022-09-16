@@ -1,20 +1,24 @@
 # PyPrintAPI
 Python API that prints through socket.
 
-To use:
-Download and Install Python:
-https://www.python.org/downloads/
+- Download and Install [Python](https://www.python.org/downloads/):
 
-Install FastAPI:
+- Install FastAPI:
+```
 pip install fastapi
-
-Install uvicorn:
+```
+- Install uvicorn:
+```
 pip install uvicorn
+```
 
-Install Service in Windows:
-Download NSSM: https://nssm.cc/download
+- For install service in Windows:
+Download [NSSM](https://nssm.cc/download)
+And edit ServiceInstall.bat with your path and run as admin.
 
-Edit ServiceInstall.bat with your path and run as admin
+- For run:
+```
+python pyprint.py
+```
 
-
-Api Docs: YOURSERVERIP:YOURPORT/Docs
+API Docs: YOURSERVERIP:YOURPORT/docs
