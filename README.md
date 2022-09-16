@@ -13,4 +13,8 @@ pip install uvicorn
 
 Install Service in Windows:
 Download NSSM: https://nssm.cc/download
+
 Edit ServiceInstall.bat with your path and run as admin
+
+
+Api Docs: YOURSERVERIP:YOURPORT/Docs
